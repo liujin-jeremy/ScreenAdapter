@@ -1,6 +1,6 @@
 ## 屏幕适配工具
 
 ```
-implementation 'tech.threekilogram:screenadapter:2.0.0'
+implementation 'tech.liujin:screen-adapter:1.0.0'
 ```
 
