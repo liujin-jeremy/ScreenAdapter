@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "tech.threekilogram.screenadaption"
+        applicationId "tech.liujin.screenadaption"
         minSdkVersion 14
         targetSdkVersion 28
         versionCode 1

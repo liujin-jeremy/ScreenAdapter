@@ -1,4 +1,4 @@
-package tech.threekilogram.screenadaption;
+package tech.liujin.screenadaption;
 
 import static org.junit.Assert.assertEquals;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
             // Context of the app under test.
             Context appContext = InstrumentationRegistry.getTargetContext();
 
-            assertEquals( "tech.threekilogram.screenadaption", appContext.getPackageName() );
+            assertEquals( "tech.liujin.screenadaption", appContext.getPackageName() );
       }
 }

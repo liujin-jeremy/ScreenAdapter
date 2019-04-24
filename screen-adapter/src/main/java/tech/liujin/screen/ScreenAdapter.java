@@ -1,10 +1,9 @@
-package tech.threekilogram.screenadapter;
+package tech.liujin.screen;
 
 import android.app.Activity;
 import android.content.Context;
 import android.support.annotation.LayoutRes;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,8 +13,6 @@ import android.widget.FrameLayout;
  * @author Liujin 2018-10-30:11:08
  */
 public class ScreenAdapter {
-
-      private static final String TAG = ScreenAdapter.class.getSimpleName();
 
       private ScreenAdapter ( ) { }
 
@@ -59,8 +56,6 @@ public class ScreenAdapter {
 
             View result = LayoutInflater.from( context ).inflate( layout, parent, false );
             displayMetrics.density = old;
-
-            Log.e( TAG, "inflateView : " + result.getLayoutParams().width );
 
             return result;
       }

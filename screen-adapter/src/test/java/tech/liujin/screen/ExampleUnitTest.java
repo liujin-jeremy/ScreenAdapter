@@ -1,4 +1,4 @@
-package tech.threekilogram.screenadaption;
+package tech.liujin.screen;
 
 import static org.junit.Assert.assertEquals;
 
