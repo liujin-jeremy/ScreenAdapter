@@ -1,1 +1,1 @@
-include ':app', ':screen-adapter'
+include ':app', ':screen'
